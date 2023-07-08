@@ -1,10 +1,7 @@
 package GURUAutoTests;
 
 
-import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.DownloadOptions;
-import com.codeborne.selenide.FileDownloadMode;
-import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
@@ -104,14 +101,28 @@ void successFullLoginTest() {
     $x("//select").shouldBe(cssClass("class"));
     $x("//select").shouldBe(checked);
   }
+  /*  На главной странице GitHub выберите меню Solutions ->
+      Enterprize с помощью команды hover для Solutions.
+      Убедитесь что загрузилась нужная страница (например что заголовок - "Build like the best."
+   */
     @Test
-    void downloadFile() throws FileNotFoundException {
-      $x("//select").shouldHave(cssValue()
-    File file1 = $x("//select").download(DownloadOptions.using(FileDownloadMode.FOLDER));
-
-
-    Selenide.sleep(3000);
-
+    void homeTaskDay4() {
+   open("https://github.com/");
+   $x("(//button[@aria-expanded = 'false'])[3] ").hover();
+   $x("(//a [@href = '/enterprise'])[1]").click();
+   String title = $x("//h1[@class='h1-mktg mb-3 color-fg-default']").getText();
+   String title2 = "Build like the best";
+   Assertions.assertEquals(title2,title);
+  }
+ /*
+ Тест на перемещение одного объекта на другой и проверка этого действия!!!
+  */
+  @Test
+  void homeTaskPart2(){
+      open("https://the-internet.herokuapp.com/drag_and_drop");
+      $x("//div[@id='column-a']").dragAndDropTo($x("//div[@id='column-b']"));
+      Assertions.assertEquals("Drag and Drop",$x("//h3").getText());
+      $x("//div[@id='column-a']").shouldHave(text("B"));
   }
 }
 

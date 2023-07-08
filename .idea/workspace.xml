@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4189a9bd-a34c-47b2-88ef-6424819db7cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GURUAutoTests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GURUAutoTests/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +64,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.LoginTests">
+  <component name="RunManager" selected="JUnit.LoginTests.homeTaskPart2">
     <configuration name="LoginTests.checkGitHubTitle" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,6 +92,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="LoginTests.successFullLoginTest" type="GradleRunConfiguration" factoryName="Gradle">
@@ -123,6 +116,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="LoginTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -156,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.openGitHubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.checkGitHubTitle3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
@@ -166,13 +160,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="GURUAutoTests" />
       <option name="MAIN_CLASS_NAME" value="GURUAutoTests.LoginTests" />
-      <option name="METHOD_NAME" value="openGitHubTest" />
+      <option name="METHOD_NAME" value="checkGitHubTitle3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.successFullLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.homeTaskDay4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
@@ -182,13 +176,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="GURUAutoTests" />
       <option name="MAIN_CLASS_NAME" value="GURUAutoTests.LoginTests" />
-      <option name="METHOD_NAME" value="successFullLoginTest" />
+      <option name="METHOD_NAME" value="homeTaskDay4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.unSuccessFullLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.homeTaskPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
@@ -198,7 +192,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="GURUAutoTests" />
       <option name="MAIN_CLASS_NAME" value="GURUAutoTests.LoginTests" />
-      <option name="METHOD_NAME" value="unSuccessFullLoginTest" />
+      <option name="METHOD_NAME" value="homeTaskPart2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -207,19 +201,19 @@
     <list>
       <item itemvalue="Gradle.LoginTests.checkGitHubTitle" />
       <item itemvalue="Gradle.LoginTests.successFullLoginTest" />
+      <item itemvalue="JUnit.LoginTests.homeTaskDay4" />
+      <item itemvalue="JUnit.LoginTests.homeTaskPart2" />
+      <item itemvalue="JUnit.LoginTests.checkGitHubTitle3" />
       <item itemvalue="JUnit.LoginTests" />
-      <item itemvalue="JUnit.LoginTests.successFullLoginTest" />
-      <item itemvalue="JUnit.LoginTests.unSuccessFullLoginTest" />
-      <item itemvalue="JUnit.LoginTests.openGitHubTest" />
       <item itemvalue="JUnit.LoginTests.checkGitHubTitle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTests.homeTaskPart2" />
+        <item itemvalue="JUnit.LoginTests.homeTaskDay4" />
+        <item itemvalue="JUnit.LoginTests.checkGitHubTitle3" />
         <item itemvalue="JUnit.LoginTests" />
         <item itemvalue="JUnit.LoginTests.checkGitHubTitle" />
-        <item itemvalue="JUnit.LoginTests.openGitHubTest" />
-        <item itemvalue="JUnit.LoginTests.unSuccessFullLoginTest" />
-        <item itemvalue="JUnit.LoginTests.successFullLoginTest" />
       </list>
     </recent_temporary>
   </component>
