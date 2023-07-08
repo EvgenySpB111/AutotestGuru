@@ -116,6 +116,7 @@ void successFullLoginTest() {
   }
  /*
  Тест на перемещение одного объекта на другой и проверка этого действия!!!
+ Албук лох
   */
   @Test
   void homeTaskPart2(){
