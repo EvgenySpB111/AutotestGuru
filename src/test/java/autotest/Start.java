@@ -1,16 +1,17 @@
-package GURUAutoTests;
+package autotest;
 
 
 
 public class Start {
   public static void main(String[] args) {
-
+  String A = "Albert LOH";
   String name = "Smorzevskiy";
   char [] array = name.toCharArray();
     System.out.println( "Numbers char in a word  : " + array.length);
     for( int i = 0; i < array.length ; i ++){
-      System.out.print( array[i]);
+      System.out.println( array[i]);
     }
+    System.out.println(A);
    /*
     for (int i = 1; i < 11; i++) {
 

@@ -1,14 +1,9 @@
-package GURUAutoTests;
+package autotest;
 
 
 import com.codeborne.selenide.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.Keys;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
@@ -107,12 +102,14 @@ void successFullLoginTest() {
    */
     @Test
     void homeTaskDay4() {
-   open("https://github.com/");
+      Configuration.browser = "FireFox";
+      open("https://github.com/");
    $x("(//button[@aria-expanded = 'false'])[3] ").hover();
    $x("(//a [@href = '/enterprise'])[1]").click();
    String title = $x("//h1[@class='h1-mktg mb-3 color-fg-default']").getText();
    String title2 = "Build like the best";
    Assertions.assertEquals(title2,title);
+   Assertions.assertEquals("https://github.com/enterprise",WebDriverRunner.url());
   }
  /*
  Тест на перемещение одного объекта на другой и проверка этого действия!!!
@@ -121,6 +118,8 @@ void successFullLoginTest() {
   @Test
   void homeTaskPart2(){
       open("https://the-internet.herokuapp.com/drag_and_drop");
+      //System.out.println(WebDriverRunner.getWebDriver().getCurrentUrl());
+    System.out.println(WebDriverRunner.currentFrameUrl());
       $x("//div[@id='column-a']").dragAndDropTo($x("//div[@id='column-b']"));
       Assertions.assertEquals("Drag and Drop",$x("//h3").getText());
       $x("//div[@id='column-a']").shouldHave(text("B"));
