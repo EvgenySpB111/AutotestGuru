@@ -1,4 +1,4 @@
-package autotest;
+package guru.qa;
 
 
 import com.codeborne.selenide.*;

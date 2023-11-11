@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4189a9bd-a34c-47b2-88ef-6424819db7cc" name="Changes" comment="2023.07.15 demo">
+    <list default="true" id="4189a9bd-a34c-47b2-88ef-6424819db7cc" name="Changes" comment="2023.07.15 part 2.1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/guru/qa/JUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/HomeTaskLesson3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/HomeTaskLesson3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junit_test/JUnitTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +38,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="QA_Guru" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="QA_Guru" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="QA_Guru" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -41,6 +59,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -48,11 +67,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -79,93 +98,36 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.JUnitTests">
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="autotest.Start" />
-      <module name="QA_Guru.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="autotest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeTaskLesson3.selenideInGitHubTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\Projects\AutotestGuru\AutotestGur\build\allure-results" />
+      <recent name="C:\Java\Projects\AutotestGuru\AutotestGur\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.AutotestGur [allureServe]">
+    <configuration name="AutotestGur [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;autotest.HomeTaskLesson3.selenideInGitHubTest&quot;" />
+            <option value="allureServe" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="JUnitTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;junit_test.JUnitTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="JUnitTests.JUnitTest_1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;junit_test.JUnitTests.JUnitTest_1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="LoginTests.checkGitHubTitle" type="GradleRunConfiguration" factoryName="Gradle">
@@ -216,46 +178,86 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests.testAlertConfirm (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;autotest.LoginTests.testAlertConfirm&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
+    <configuration name="AddProductInBasket.addProductInBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Guru.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemo.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemo.shop" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.AddProductInBasket" />
+      <option name="METHOD_NAME" value="addProductInBasket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddProductInBasket.addsProductInBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Guru.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemo.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemo.shop" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.AddProductInBasket" />
+      <option name="METHOD_NAME" value="addsProductInBasket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllureReport.checkLambdaGitHub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Guru.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemo.shop.allure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemo.shop.allure" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.allure.AllureReport" />
+      <option name="METHOD_NAME" value="checkLambdaGitHub" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTestSuccess.randomDataForTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Guru.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemo.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemo.shop" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.LoginTestSuccess" />
+      <option name="METHOD_NAME" value="randomDataForTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Start" />
       <item itemvalue="Gradle.LoginTests.checkGitHubTitle" />
       <item itemvalue="Gradle.LoginTests.successFullLoginTest" />
-      <item itemvalue="Gradle.JUnitTests" />
-      <item itemvalue="Gradle.JUnitTests.JUnitTest_1" />
-      <item itemvalue="Gradle.HomeTaskLesson3.selenideInGitHubTest" />
-      <item itemvalue="Gradle.LoginTests.testAlertConfirm (1)" />
+      <item itemvalue="Gradle.AutotestGur [allureServe]" />
+      <item itemvalue="JUnit.AddProductInBasket.addProductInBasket" />
+      <item itemvalue="JUnit.AddProductInBasket.addsProductInBasket" />
+      <item itemvalue="JUnit.LoginTestSuccess.randomDataForTest" />
+      <item itemvalue="JUnit.AllureReport.checkLambdaGitHub" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.JUnitTests" />
-        <item itemvalue="Gradle.JUnitTests.JUnitTest_1" />
-        <item itemvalue="Application.Start" />
-        <item itemvalue="Gradle.LoginTests.testAlertConfirm (1)" />
-        <item itemvalue="Gradle.HomeTaskLesson3.selenideInGitHubTest" />
+        <item itemvalue="Gradle.AutotestGur [allureServe]" />
+        <item itemvalue="JUnit.AddProductInBasket.addProductInBasket" />
+        <item itemvalue="JUnit.AddProductInBasket.addsProductInBasket" />
+        <item itemvalue="JUnit.LoginTestSuccess.randomDataForTest" />
+        <item itemvalue="JUnit.AllureReport.checkLambdaGitHub" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +278,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689406912452</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2023.07.15 part 2">
+      <option name="closed" value="true" />
+      <created>1689421421245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689421421245</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2023.07.15 part 2.1">
+      <option name="closed" value="true" />
+      <created>1689421475778</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689421475778</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +310,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2023.07.15 demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023.07.15 demo" />
+    <MESSAGE value="2023.07.15 part 2" />
+    <MESSAGE value="2023.07.15 part 2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023.07.15 part 2.1" />
   </component>
 </project>
