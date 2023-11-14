@@ -43,3 +43,9 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+  task void_test(type: Test) {
+      useJUnitPlatform{
+          includeTags("void tests")
+      }
+  }

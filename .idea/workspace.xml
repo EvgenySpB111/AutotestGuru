@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4189a9bd-a34c-47b2-88ef-6424819db7cc" name="Changes" comment="2023.07.15 part 2.1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/guru/qa/JUnitTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/HomeTaskLesson3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/HomeTaskLesson3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/junit_test/JUnitTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +58,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -95,10 +93,10 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -107,7 +105,7 @@
       <recent name="C:\Java\Projects\AutotestGuru\AutotestGur\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AutotestGur [allureServe]">
+  <component name="RunManager" selected="JUnit.VoidTests.startTest">
     <configuration name="AutotestGur [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -194,23 +192,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddProductInBasket.addsProductInBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_Guru.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saucedemo.shop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.AddProductInBasket" />
-      <option name="METHOD_NAME" value="addsProductInBasket" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AllureReport.checkLambdaGitHub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VoidTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
@@ -219,24 +201,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="saucedemo.shop.allure" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.allure.AllureReport" />
-      <option name="METHOD_NAME" value="checkLambdaGitHub" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.allure.VoidTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoidTests.negativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Guru.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemo.shop.allure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemo.shop.allure" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.allure.VoidTests" />
+      <option name="METHOD_NAME" value="negativeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTestSuccess.randomDataForTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VoidTests.startTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="saucedemo.shop.*" />
+          <option name="PATTERN" value="saucedemo.shop.allure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.LoginTestSuccess" />
-      <option name="METHOD_NAME" value="randomDataForTest" />
+      <option name="PACKAGE_NAME" value="saucedemo.shop.allure" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.allure.VoidTests" />
+      <option name="METHOD_NAME" value="startTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -246,18 +243,18 @@
       <item itemvalue="Gradle.LoginTests.checkGitHubTitle" />
       <item itemvalue="Gradle.LoginTests.successFullLoginTest" />
       <item itemvalue="Gradle.AutotestGur [allureServe]" />
+      <item itemvalue="JUnit.VoidTests" />
+      <item itemvalue="JUnit.VoidTests.negativeTest" />
+      <item itemvalue="JUnit.VoidTests.startTest" />
       <item itemvalue="JUnit.AddProductInBasket.addProductInBasket" />
-      <item itemvalue="JUnit.AddProductInBasket.addsProductInBasket" />
-      <item itemvalue="JUnit.LoginTestSuccess.randomDataForTest" />
-      <item itemvalue="JUnit.AllureReport.checkLambdaGitHub" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VoidTests.startTest" />
+        <item itemvalue="JUnit.VoidTests" />
+        <item itemvalue="JUnit.VoidTests.negativeTest" />
         <item itemvalue="Gradle.AutotestGur [allureServe]" />
         <item itemvalue="JUnit.AddProductInBasket.addProductInBasket" />
-        <item itemvalue="JUnit.AddProductInBasket.addsProductInBasket" />
-        <item itemvalue="JUnit.LoginTestSuccess.randomDataForTest" />
-        <item itemvalue="JUnit.AllureReport.checkLambdaGitHub" />
       </list>
     </recent_temporary>
   </component>
@@ -313,5 +310,9 @@
     <MESSAGE value="2023.07.15 part 2" />
     <MESSAGE value="2023.07.15 part 2.1" />
     <option name="LAST_COMMIT_MESSAGE" value="2023.07.15 part 2.1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
