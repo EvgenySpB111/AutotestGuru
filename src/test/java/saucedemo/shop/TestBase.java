@@ -5,6 +5,7 @@ import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 
 public class TestBase {
     @BeforeAll
@@ -18,4 +19,5 @@ public class TestBase {
     Selenide.closeWindow();
     Selenide.closeWebDriver();
     }
+
 }

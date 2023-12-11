@@ -46,6 +46,6 @@ test {
 
   task void_test(type: Test) {
       useJUnitPlatform{
-          includeTags("void tests")
+          includeTags("void_tests")
       }
   }
