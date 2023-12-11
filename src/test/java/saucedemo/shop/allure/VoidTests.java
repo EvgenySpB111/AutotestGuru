@@ -10,21 +10,32 @@ import saucedemo.shop.TestBase;
 
 import static com.codeborne.selenide.Selenide.$x;
 import static com.codeborne.selenide.Selenide.sleep;
-
+@Tag("void_tests")
 public class VoidTests  extends TestBase {
 
-   @Test
-    void testOpenUrl() {
-       Selenide.open("https://www.google.com/search");
-       String name = "Поиск в Google";
-       String actualName = $x("(//input[@name ='btnK'])[2]").getValue();
-       Assertions.assertEquals(name,actualName);
-   }
 
-    @Tag("void_tests")
+
+
    @Test
-     void passTest () {
+     void passTest1 () {
        Assertions.assertTrue(true);
    }
+    @Test
+    void passTest2 () {
+        Assertions.assertTrue(true);
+    }
+    @Test
+    void passTest3 () {
+        Assertions.assertTrue(true);
+    }
+    @Test
+    void passTest4 () {
+        Assertions.assertTrue(false);
+    }
+    @Test
+    @Disabled("disabled test")
+    void passTest5 () {
+        Assertions.assertTrue(true);
+    }
 
 }
