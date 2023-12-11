@@ -116,7 +116,7 @@ void successFullLoginTest() {
  Тест на перемещение одного объекта на другой и проверка этого действия!!!
  
   */
- @Tag("void_tests")
+ 
   @Test
   void homeTaskPart2(){
       open("https://the-internet.herokuapp.com/drag_and_drop");

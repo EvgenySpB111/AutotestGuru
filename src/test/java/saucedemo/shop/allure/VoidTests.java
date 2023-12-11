@@ -10,7 +10,7 @@ import saucedemo.shop.TestBase;
 
 import static com.codeborne.selenide.Selenide.$x;
 import static com.codeborne.selenide.Selenide.sleep;
- @Tag("void_tests")
+
 public class VoidTests  extends TestBase {
 
    @Test
@@ -19,6 +19,12 @@ public class VoidTests  extends TestBase {
        String name = "Поиск в Google";
        String actualName = $x("(//input[@name ='btnK'])[2]").getValue();
        Assertions.assertEquals(name,actualName);
+   }
+
+    @Tag("void_tests")
+   @Test
+     void passTest () {
+       Assertions.assertTrue(true);
    }
 
 }
