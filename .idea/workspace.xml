@@ -7,6 +7,7 @@
     <list default="true" id="4189a9bd-a34c-47b2-88ef-6424819db7cc" name="Changes" comment="2023.07.15 part 2.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/AllureReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/AllureReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +106,7 @@
       <recent name="C:\Java\Projects\AutotestGuru\AutotestGur\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VoidTests.passTest">
+  <component name="RunManager" selected="Gradle.AutotestGur [allureServe]">
     <configuration name="AutotestGur [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -176,23 +177,23 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="AddProductInBasket.addProductInBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllureReport.checkLambdaGitHub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="saucedemo.shop.*" />
+          <option name="PATTERN" value="saucedemo.shop.allure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.AddProductInBasket" />
-      <option name="METHOD_NAME" value="addProductInBasket" />
+      <option name="PACKAGE_NAME" value="saucedemo.shop.allure" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.allure.AllureReport" />
+      <option name="METHOD_NAME" value="checkLambdaGitHub" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddProductInBasket.addsProductInBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckShopPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
@@ -201,14 +202,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="saucedemo.shop" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.AddProductInBasket" />
-      <option name="METHOD_NAME" value="addsProductInBasket" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.CheckShopPageTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTestSuccess.randomDataForTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTestError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
@@ -217,9 +217,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="saucedemo.shop" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.LoginTestSuccess" />
-      <option name="METHOD_NAME" value="randomDataForTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.LoginTestError" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -244,18 +243,18 @@
       <item itemvalue="Gradle.LoginTests.checkGitHubTitle" />
       <item itemvalue="Gradle.LoginTests.successFullLoginTest" />
       <item itemvalue="Gradle.AutotestGur [allureServe]" />
+      <item itemvalue="JUnit.AllureReport.checkLambdaGitHub" />
+      <item itemvalue="JUnit.CheckShopPageTest" />
+      <item itemvalue="JUnit.LoginTestError" />
       <item itemvalue="JUnit.VoidTests.passTest" />
-      <item itemvalue="JUnit.AddProductInBasket.addProductInBasket" />
-      <item itemvalue="JUnit.AddProductInBasket.addsProductInBasket" />
-      <item itemvalue="JUnit.LoginTestSuccess.randomDataForTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VoidTests.passTest" />
         <item itemvalue="Gradle.AutotestGur [allureServe]" />
-        <item itemvalue="JUnit.AddProductInBasket.addProductInBasket" />
-        <item itemvalue="JUnit.AddProductInBasket.addsProductInBasket" />
-        <item itemvalue="JUnit.LoginTestSuccess.randomDataForTest" />
+        <item itemvalue="JUnit.AllureReport.checkLambdaGitHub" />
+        <item itemvalue="JUnit.LoginTestError" />
+        <item itemvalue="JUnit.CheckShopPageTest" />
+        <item itemvalue="JUnit.VoidTests.passTest" />
       </list>
     </recent_temporary>
   </component>

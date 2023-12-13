@@ -46,7 +46,7 @@ public class AllureReport extends TestBase {
         $$x("//div[@class='d-flex mt-1 text-small color-fg-muted']").get(0).shouldHave(Condition.visible);
         $$x("//div[@class='d-flex mt-1 text-small color-fg-muted']").get(0).shouldBe(Condition.enabled);
         $$x("//div[@class='d-flex mt-1 text-small color-fg-muted']").get(0).
-                shouldBe(Condition.text("#83 opened"));
+                shouldBe(Condition.text("#84 opened"));
 
     }
 

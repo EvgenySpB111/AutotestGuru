@@ -23,7 +23,7 @@ public class TestBase {
    static void beforeAll() {
         Configuration.browser = "Chrome";
         Configuration.browserSize = "1920x1080";
-        Configuration.remote = "https://selenoid_url";
+        //Configuration.remote = "https://selenoid_url";
     }
     @BeforeEach
      void beforeListener() {
@@ -35,7 +35,6 @@ public class TestBase {
         Attachments.screenshotAs("screen1");
         Attachments.pageSource();
         Attachments.addVideo();
-
         }
 
 
