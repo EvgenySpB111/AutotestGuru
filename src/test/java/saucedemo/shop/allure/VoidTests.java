@@ -10,32 +10,43 @@ import saucedemo.shop.TestBase;
 
 import static com.codeborne.selenide.Selenide.$x;
 import static com.codeborne.selenide.Selenide.sleep;
+import static io.qameta.allure.Allure.step;
+
 @Tag("void_tests")
 public class VoidTests  extends TestBase {
 
 
-
-
    @Test
      void passTest1 () {
-       Assertions.assertTrue(true);
+       step("Проверка тест1 прошел",() -> {
+           Assertions.assertTrue(true);
+       });
    }
     @Test
     void passTest2 () {
-        Assertions.assertTrue(true);
+        step("Проверка тест2 прошел",() -> {
+            Assertions.assertTrue(true);
+        });
     }
     @Test
     void passTest3 () {
-        Assertions.assertTrue(true);
+        step("Проверка тест3 прошел",() -> {
+            Assertions.assertTrue(true);
+        });
     }
     @Test
     void passTest4 () {
-        Assertions.assertTrue(false);
+        step("Проверка тест4 упал",() -> {
+            Assertions.assertTrue(false);
+        });
+
     }
     @Test
     @Disabled("disabled test")
     void passTest5 () {
-        Assertions.assertTrue(true);
+        step("Проверка тест5 пропустили",() -> {
+            Assertions.assertTrue(true);
+        });
     }
 
 }
