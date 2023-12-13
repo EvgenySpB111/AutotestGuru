@@ -11,12 +11,19 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import saucedemo.shop.allure.Attachments;
+
+import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
 public class TestBase {
+
+
     @BeforeAll
    static void beforeAll() {
         Configuration.browser = "Chrome";
         Configuration.browserSize = "1920x1080";
+        Configuration.remote = "https://selenoid_url";
     }
     @BeforeEach
      void beforeListener() {
@@ -25,11 +32,12 @@ public class TestBase {
 
     @AfterEach
     void afterAttachments() {
-       // @Attachment( value = "Screenshot", type = "image/png", fileExtension = "png")
-       // public byte[] takeScreenshot() {
-         //   return ((TakesScreenshot) WebDriverRunner.getWebDriver()).getScreenshotAs(OutputType.BYTES);
+        Attachments.screenshotAs("screen1");
+        Attachments.pageSource();
+        Attachments.addVideo();
+
         }
-    
+
 
     @AfterAll
    static void afterAll() {
