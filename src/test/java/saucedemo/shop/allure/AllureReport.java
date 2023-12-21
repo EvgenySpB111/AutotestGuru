@@ -2,8 +2,13 @@ package saucedemo.shop.allure;
 
 
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.Feature;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import saucedemo.shop.TestBase;
 
@@ -15,8 +20,7 @@ public class AllureReport extends TestBase {
 
     @Test
     void checkGitHub() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
-        open("https://github.com/");
+         open("https://github.com/");
         $x("//span[@class= 'flex-1']").click();
         $x("//input[@id='query-builder-test']").setValue("eroshenkoam/allure-example").pressEnter();
         $x("//a[@href='/eroshenkoam/allure-example']").click();
@@ -24,13 +28,13 @@ public class AllureReport extends TestBase {
         $$x("//div[@class='d-flex mt-1 text-small color-fg-muted']").get(0).shouldHave(Condition.visible);
         $$x("//div[@class='d-flex mt-1 text-small color-fg-muted']").get(0).shouldBe(Condition.enabled);
         $$x("//div[@class='d-flex mt-1 text-small color-fg-muted']").get(0).
-                shouldBe(Condition.text("#84 opened"));
+                shouldBe(Condition.text("#83 opened"));
 
     }
 
     @Test
     void checkLambdaGitHub() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
+
         step("Открываем сайт для начала теста",() -> {
             open("https://github.com/");
         });
@@ -46,8 +50,24 @@ public class AllureReport extends TestBase {
         $$x("//div[@class='d-flex mt-1 text-small color-fg-muted']").get(0).shouldHave(Condition.visible);
         $$x("//div[@class='d-flex mt-1 text-small color-fg-muted']").get(0).shouldBe(Condition.enabled);
         $$x("//div[@class='d-flex mt-1 text-small color-fg-muted']").get(0).
-                shouldBe(Condition.text("#84 opened"));
+                shouldBe(Condition.text("#83 opened"));
 
     }
+
+    @Tag("test_UI")
+    @DisplayName("Test name: checking UI ")
+    @Test
+    public void testCase1() {
+        step("Открываем гугл",() -> {
+            open("https://www.google.ru/?hl=ru");
+        });
+        step("Вводим в поиск город Рыбница",() -> {
+            $x("//textarea[@type = 'search']").setValue("Рыбница").pressEnter();
+        });
+        step("Проверяем чтоб город в заголовке новой страницы был Рыбница",() -> {
+            Assertions.assertEquals("Рыбница", $x("//div[@data-attrid ='title']").getText());
+        });
+    }
+
 
 }

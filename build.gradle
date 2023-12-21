@@ -1,3 +1,5 @@
+import com.sun.javafx.runtime.SystemProperties
+
 plugins {
     id 'java-library'
     id("io.qameta.allure") version "2.10.0"
@@ -34,11 +36,22 @@ dependencies {
             "com.opencsv:opencsv:5.8",
             "com.google.code.gson:gson:2.10.1",
             'com.github.javafaker:javafaker:1.0.2',
-            'io.qameta.allure:allure-selenide:2.19.0'
+            'io.qameta.allure:allure-selenide:2.19.0',
+            "org.slf4j:slf4j-simple:1.7.32"
 
     )
 }
 
+tasks.withType(Test) {
+    useJUnitPlatform()
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standardError", "standardOut","passed"
+            exceptionFormat "full"
+        }
+    }
+}
 
 test {
     useJUnitPlatform()
@@ -49,3 +62,17 @@ test {
           includeTags("void_tests")
       }
   }
+
+ task test_UI(type: Test) {
+     useJUnitPlatform {
+         includeTags("test_UI")
+     }
+
+ task test_test(type: Test) {
+     useJUnitPlatform {
+         includeTags("test_test")
+     }
+ }
+
+
+ }

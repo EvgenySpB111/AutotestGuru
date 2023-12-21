@@ -43,7 +43,7 @@ public class Attachments {
         }
 
         public static URL getVideoUrl() {
-            String videoUrl = "https://selenoid.autotests.cloud/video/" + sessionId() + ".mp4";
+            String videoUrl = "https://selenoid.autotests.cloud/video/" + nameVideo() + ".mp4";
 
             try {
                 return new URL(videoUrl);
@@ -52,5 +52,15 @@ public class Attachments {
             }
             return null;
         }
+        public static String nameVideo() {
+            String str = sessionId().toString();
+            String number = "";
+            for( int x = 0; x < 6; x++){
+                number += str.charAt(x);
+            }
+            return number;
+        }
+
+
 }
 
