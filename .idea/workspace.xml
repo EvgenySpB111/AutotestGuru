@@ -8,9 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/AllureReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/AllureReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/Attachments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/Attachments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/properties/SystemPropertiesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/properties/SystemPropertiesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

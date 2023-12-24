@@ -1,10 +1,15 @@
-import com.sun.javafx.runtime.SystemProperties
 
 plugins {
     id 'java-library'
+    id 'application'
     id("io.qameta.allure") version "2.10.0"
 
+
 }
+repositories {
+    mavenCentral()
+}
+
 allure{
     report {
         version.set("2.19.0")
@@ -18,11 +23,7 @@ allure{
         }
     }
 }
-
-repositories {
-    mavenCentral()
-}
-compileTestJava {
+tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
@@ -43,19 +44,19 @@ dependencies {
 }
 
 tasks.withType(Test) {
+    systemProperties(System.getProperties())
     useJUnitPlatform()
 
     testLogging {
         lifecycle {
-            events "started", "skipped", "failed", "standardError", "standardOut","passed"
-            exceptionFormat "full"
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
         }
     }
 }
 
-test {
-    useJUnitPlatform()
-}
+
+
 
   task void_test(type: Test) {
       useJUnitPlatform{

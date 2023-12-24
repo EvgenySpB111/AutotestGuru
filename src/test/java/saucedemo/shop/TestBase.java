@@ -23,7 +23,7 @@ public class TestBase {
     @BeforeAll
    static void beforeAll() {
 
-        Configuration.browser = "Chrome";
+        Configuration.browser = "Edge";
         Configuration.browserSize = "1920x1080";
         //Configuration.remote = "https://selenoid_url"; // это для того чтоб запускать UI тесты на селеноиде
 

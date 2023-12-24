@@ -23,7 +23,12 @@ public class SystemPropertiesTests {
     @Test
     @Tag("test_test")
     void simpleProperty4Test() {
-        System.out.println("Hello, world from " + System.setProperty("country", "unknown"));
+        System.out.println("Hello World from " + System.getProperty("country","defaut"));
+        // gradle clean one_property_test
+        // firefox
+
+        // ./gradlew clean test_test -Dbrowser=safari
+        // safari
 
         // ./gradlew clean test_test -Dcountry=Russia
         // safari
