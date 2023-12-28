@@ -67,7 +67,7 @@ public class AllureReport extends TestBase {
         step("Проверяем чтоб город в заголовке новой страницы был Рыбница",() -> {
             Assertions.assertEquals("Рыбница", $x("//div[@data-attrid ='title']").getText());
         });
-        System.out.println("Hello World from " + System.getProperty("country","defaut"));
+        System.out.println("Hello browser " + System.getProperty("browser","chrome"));
     }
 
 
