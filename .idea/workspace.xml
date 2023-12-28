@@ -7,8 +7,8 @@
     <list default="true" id="4189a9bd-a34c-47b2-88ef-6424819db7cc" name="Changes" comment="2023.07.15 part 2.1">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/properties/SystemPropertiesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/properties/SystemPropertiesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/AllureReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/AllureReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <recent name="C:\Java\Projects\AutotestGuru\AutotestGur\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SystemPropertiesTests.simpleProperty4Test">
+  <component name="RunManager" selected="JUnit.AllureReport.testCase1">
     <configuration name="AutotestGur [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -253,9 +253,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AllureReport.testCase1" />
         <item itemvalue="JUnit.SystemPropertiesTests.simpleProperty4Test" />
         <item itemvalue="JUnit.SystemPropertiesTests.simplePropertyTest" />
-        <item itemvalue="JUnit.AllureReport.testCase1" />
         <item itemvalue="Gradle.AutotestGur [allureServe]" />
         <item itemvalue="JUnit.AllureReport.checkLambdaGitHub" />
       </list>
