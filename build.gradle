@@ -55,9 +55,6 @@ tasks.withType(Test) {
     }
 }
 
-
-
-
   task void_test(type: Test) {
       useJUnitPlatform{
           includeTags("void_tests")
