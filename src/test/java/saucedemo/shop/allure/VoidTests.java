@@ -43,4 +43,9 @@ public class VoidTests  extends TestBase {
         });
     }
 
+     @Test
+    void printConsoleTest6() {
+         System.out.println("Привет у нас все хорошо, сегодня хорошая погода, все отлично");
+     }
+
 }

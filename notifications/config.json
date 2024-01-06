@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "QA guru auto test",
+    "environment": "Prod",
+    "comment": "any comment from @Sushi_hanzo",
+    "reportLink": "http://192.168.2.106:58780/index.html",
+    "language": "en",
+    "allureFolder": "build/reports/allure-report/allureReport/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6467228186:AAGioWBEaUMp02ZHeGz85XrkU68uAotuOK0",
+    "chat": "-1002095469738",
+    "replyTo": ""
+  }
+}
