@@ -32,13 +32,15 @@ dependencies {
             "com.codeborne:selenide:6.17.2",
             "org.junit.jupiter:junit-jupiter:5.10.0",
             "org.assertj:assertj-core:3.23.1",
-            'com.codeborne:pdf-test:1.5.0' ,
-            'com.codeborne:xls-test:1.4.3' ,
+            "com.codeborne:pdf-test:1.5.0" ,
+            "com.codeborne:xls-test:1.4.3" ,
             "com.opencsv:opencsv:5.8",
             "com.google.code.gson:gson:2.10.1",
-            'com.github.javafaker:javafaker:1.0.2',
-            'io.qameta.allure:allure-selenide:2.19.0',
-            "org.slf4j:slf4j-simple:1.7.32"
+            "com.github.javafaker:javafaker:1.0.2",
+            "io.qameta.allure:allure-selenide:2.19.0",
+            "org.slf4j:slf4j-simple:1.7.32",
+            "org.selenide:selenide-selenoid:6.15.0",
+            "io.rest-assured:rest-assured:5.4.0"
 
     )
 }

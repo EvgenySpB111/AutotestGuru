@@ -62,12 +62,11 @@ public class AllureReport extends TestBase {
             open("https://www.google.ru/?hl=ru");
         });
         step("Вводим в поиск город Рыбница",() -> {
-            $x("//textarea[@type = 'search']").setValue("Рыбница").pressEnter();
+            $x("//textarea[@class='gLFyf']").setValue("Рыбница").pressEnter();
         });
-        step("Проверяем чтоб город в заголовке новой страницы был Рыбница",() -> {
+        step("Проверяем чтоб город в заголовке новой страницы была Рыбница",() -> {
             Assertions.assertEquals("Рыбница", $x("//div[@data-attrid ='title']").getText());
         });
-        System.out.println("Hello browser " + System.getProperty("browser","chrome"));
     }
 
 

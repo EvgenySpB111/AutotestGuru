@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4189a9bd-a34c-47b2-88ef-6424819db7cc" name="Changes" comment="2023.07.15 part 2.1">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/qa/FileParsingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/FileParsingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/AllureReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/AllureReport.java" afterDir="false" />
     </list>
@@ -98,16 +99,17 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\Projects\AutotestGuru\AutotestGur\init\selenoid" />
       <recent name="C:\Java\Projects\AutotestGuru\AutotestGur\build\allure-results" />
       <recent name="C:\Java\Projects\AutotestGuru\AutotestGur\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AllureReport.testCase1">
+  <component name="RunManager" selected="Gradle.AutotestGur [allureServe]">
     <configuration name="AutotestGur [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -178,6 +180,22 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="AddProductInBasket.addProductInBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Guru.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemo.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemo.shop" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.AddProductInBasket" />
+      <option name="METHOD_NAME" value="addProductInBasket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AllureReport.checkLambdaGitHub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
@@ -210,33 +228,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemPropertiesTests.simpleProperty4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckShopPageTest.checkShopCountProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="saucedemo.shop.allure.properties.*" />
+          <option name="PATTERN" value="saucedemo.shop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop.allure.properties" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.allure.properties.SystemPropertiesTests" />
-      <option name="METHOD_NAME" value="simpleProperty4Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SystemPropertiesTests.simplePropertyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_Guru.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saucedemo.shop.allure.properties.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop.allure.properties" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.allure.properties.SystemPropertiesTests" />
-      <option name="METHOD_NAME" value="simplePropertyTest" />
+      <option name="PACKAGE_NAME" value="saucedemo.shop" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.CheckShopPageTest" />
+      <option name="METHOD_NAME" value="checkShopCountProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -246,18 +248,18 @@
       <item itemvalue="Gradle.LoginTests.checkGitHubTitle" />
       <item itemvalue="Gradle.LoginTests.successFullLoginTest" />
       <item itemvalue="Gradle.AutotestGur [allureServe]" />
-      <item itemvalue="JUnit.SystemPropertiesTests.simpleProperty4Test" />
+      <item itemvalue="JUnit.CheckShopPageTest.checkShopCountProduct" />
       <item itemvalue="JUnit.AllureReport.testCase1" />
-      <item itemvalue="JUnit.SystemPropertiesTests.simplePropertyTest" />
+      <item itemvalue="JUnit.AddProductInBasket.addProductInBasket" />
       <item itemvalue="JUnit.AllureReport.checkLambdaGitHub" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AllureReport.testCase1" />
-        <item itemvalue="JUnit.SystemPropertiesTests.simpleProperty4Test" />
-        <item itemvalue="JUnit.SystemPropertiesTests.simplePropertyTest" />
         <item itemvalue="Gradle.AutotestGur [allureServe]" />
+        <item itemvalue="JUnit.CheckShopPageTest.checkShopCountProduct" />
+        <item itemvalue="JUnit.AllureReport.testCase1" />
         <item itemvalue="JUnit.AllureReport.checkLambdaGitHub" />
+        <item itemvalue="JUnit.AddProductInBasket.addProductInBasket" />
       </list>
     </recent_temporary>
   </component>
@@ -313,9 +315,5 @@
     <MESSAGE value="2023.07.15 part 2" />
     <MESSAGE value="2023.07.15 part 2.1" />
     <option name="LAST_COMMIT_MESSAGE" value="2023.07.15 part 2.1" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
