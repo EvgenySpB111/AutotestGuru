@@ -1,6 +1,4 @@
 package saucedemo.shop.allure.properties;
-
-import com.sun.javafx.runtime.SystemProperties;
 import org.junit.jupiter.api.Tag;
 
 import org.junit.jupiter.api.Test;

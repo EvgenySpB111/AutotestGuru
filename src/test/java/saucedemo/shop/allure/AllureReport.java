@@ -2,10 +2,6 @@ package saucedemo.shop.allure;
 
 
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.logevents.SelenideLogger;
-import io.qameta.allure.Feature;
-import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -17,7 +13,6 @@ import static io.qameta.allure.Allure.step;
 
 
 public class AllureReport extends TestBase {
-
     @Test
     void checkGitHub() {
          open("https://github.com/");
@@ -62,12 +57,11 @@ public class AllureReport extends TestBase {
             open("https://www.google.ru/?hl=ru");
         });
         step("Вводим в поиск город Рыбница",() -> {
-            $x("//textarea[@type = 'search']").setValue("Рыбница").pressEnter();
+            $x("//textarea[@class='gLFyf']").setValue("Рыбница").pressEnter();
         });
         step("Проверяем чтоб город в заголовке новой страницы был Рыбница",() -> {
             Assertions.assertEquals("Рыбница", $x("//div[@data-attrid ='title']").getText());
         });
-        System.out.println("Hello browser " + System.getProperty("browser","chrome"));
     }
 
 
