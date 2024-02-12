@@ -1,13 +1,10 @@
 package saucedemo.shop.rest_api;
 
-import com.codeborne.selenide.Selenide;
+
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
-import saucedemo.shop.TestBase;
-
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.hasKey;
 import static org.hamcrest.core.Is.is;
 
 public class RestApiTests  {
@@ -17,7 +14,7 @@ public class RestApiTests  {
                 then().statusCode(200).
                 body("args.name", is("Jeka3541899")).
                 body("url",is("https://postman-echo.com/get?name=Jeka3541899"));
-
+       // тест коммент
     }
 
     @Test
