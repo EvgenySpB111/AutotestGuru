@@ -56,9 +56,9 @@ tasks.withType(Test) {
     }
 }
 
-task void_test(type: Test) {
+task rest(type: Test) {
       useJUnitPlatform{
-          includeTags("void_tests")
+          includeTags("rest")
       }
   }
 

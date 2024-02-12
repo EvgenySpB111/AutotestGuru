@@ -3,11 +3,13 @@ package saucedemo.shop.rest_api;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.core.Is.is;
 
 public class RestApiTests  {
+    @Tag("rest")
     @Test
     public void testDemo() { // Самый простой запрос
         get("https://postman-echo.com/get?name=Jeka3541899").
@@ -16,7 +18,7 @@ public class RestApiTests  {
                 body("url",is("https://postman-echo.com/get?name=Jeka3541899"));
        // тест коммент
     }
-
+    @Tag("rest")
     @Test
     public void testDemo2() { // более полный запрос
                 given().
@@ -27,7 +29,7 @@ public class RestApiTests  {
                 body("args.name", is("Jeka3541899")).
                 body("url",is("https://postman-echo.com/get?name=Jeka3541899"));
     }
-
+    @Tag("rest")
     @Test
     public void testDemo3() { // более полный запрос
         given().
@@ -39,7 +41,7 @@ public class RestApiTests  {
                 body("url",is("https://postman-echo.com/get?name=Jeka3541899")).
                 body("headers.x-forwarded-port", is("443"));
     }
-
+    @Tag("rest")
     @Test
     public void testDemo4() { // изымаем данные из запроса
          Response response = given().
@@ -54,6 +56,7 @@ public class RestApiTests  {
          String name = response.path("args.name");
         System.out.println("Вот что в стринге : "+ name);
     }
+    @Tag("rest")
     @Test
     public void postRestTest() {
         Response response = given().
@@ -67,7 +70,7 @@ public class RestApiTests  {
         System.out.println("Мы получили id пользователя " + idUser);
 
     }
-
+    @Tag("rest")
     @Test
     public void postRestTest2() {
         String data = "{ \"email\": \"eve.holt@reqres.in\", \"password\": \"pistol\" }";
@@ -84,6 +87,7 @@ public class RestApiTests  {
         String token = response.path("token");
         System.out.println("Token use is :"+ token);
     }
+    @Tag("rest")
     @Test
     public void missingPasswordTest() {
         String data = "{ \"email\": \"eve.holt@reqres.in\" }";

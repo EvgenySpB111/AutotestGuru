@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4189a9bd-a34c-47b2-88ef-6424819db7cc" name="Changes" comment="2023.07.15 part 2.1">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/rest_api/RestApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/rest_api/RestApiTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +97,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build AutoTestGuru.executor": "Run",
+    "JUnit.AllureReport.testCase1.executor": "Run",
+    "JUnit.RestApiTests.executor": "Run",
+    "JUnit.RestApiTests.testDemo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "jenkins__branch",
@@ -110,7 +116,29 @@
       <recent name="C:\Java\Projects\AutotestGuru\AutotestGur\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RestApiTests.missingPasswordTest">
+  <component name="RunManager" selected="Gradle.AutoTestGuru [allureServe]">
+    <configuration name="AutoTestGuru [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="LoginTests.checkGitHubTitle" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -159,23 +187,23 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RestApiTests.missingPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllureReport.testCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="saucedemo.shop.rest_api.*" />
+          <option name="PATTERN" value="saucedemo.shop.allure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
-      <option name="METHOD_NAME" value="missingPasswordTest" />
+      <option name="PACKAGE_NAME" value="saucedemo.shop.allure" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.allure.AllureReport" />
+      <option name="METHOD_NAME" value="testCase1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestApiTests.postRestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
@@ -185,13 +213,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
       <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
-      <option name="METHOD_NAME" value="postRestTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestApiTests.postRestTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestApiTests.testDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
@@ -201,23 +228,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
       <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
-      <option name="METHOD_NAME" value="postRestTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestApiTests.testBodyJsonType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_Guru.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saucedemo.shop.rest_api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
-      <option name="METHOD_NAME" value="testBodyJsonType" />
+      <option name="METHOD_NAME" value="testDemo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,19 +253,19 @@
     <list>
       <item itemvalue="Gradle.LoginTests.checkGitHubTitle" />
       <item itemvalue="Gradle.LoginTests.successFullLoginTest" />
-      <item itemvalue="JUnit.RestApiTests.missingPasswordTest" />
-      <item itemvalue="JUnit.RestApiTests.postRestTest" />
-      <item itemvalue="JUnit.RestApiTests.postRestTest2" />
-      <item itemvalue="JUnit.RestApiTests.testBodyJsonType" />
+      <item itemvalue="Gradle.AutoTestGuru [allureServe]" />
+      <item itemvalue="JUnit.AllureReport.testCase1" />
+      <item itemvalue="JUnit.RestApiTests" />
+      <item itemvalue="JUnit.RestApiTests.testDemo" />
       <item itemvalue="JUnit.RestApiTests.testDemo4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RestApiTests.missingPasswordTest" />
+        <item itemvalue="Gradle.AutoTestGuru [allureServe]" />
+        <item itemvalue="JUnit.RestApiTests" />
+        <item itemvalue="JUnit.RestApiTests.testDemo" />
+        <item itemvalue="JUnit.AllureReport.testCase1" />
         <item itemvalue="JUnit.RestApiTests.testDemo4" />
-        <item itemvalue="JUnit.RestApiTests.postRestTest" />
-        <item itemvalue="JUnit.RestApiTests.testBodyJsonType" />
-        <item itemvalue="JUnit.RestApiTests.postRestTest2" />
       </list>
     </recent_temporary>
   </component>
