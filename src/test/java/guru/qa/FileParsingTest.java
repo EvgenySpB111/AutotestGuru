@@ -5,13 +5,10 @@ import com.codeborne.xlstest.XLS;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.opencsv.CSVReader;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.json.Json;
 import saucedemo.shop.TestBase;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;

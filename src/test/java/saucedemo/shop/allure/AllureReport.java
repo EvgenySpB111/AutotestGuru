@@ -59,7 +59,7 @@ public class AllureReport extends TestBase {
         step("Вводим в поиск город Рыбница",() -> {
             $x("//textarea[@class='gLFyf']").setValue("Рыбница").pressEnter();
         });
-        step("Проверяем чтоб город в заголовке новой страницы был Рыбница",() -> {
+        step("Проверяем чтоб город в заголовке новой страницы была Рыбница",() -> {
             Assertions.assertEquals("Рыбница", $x("//div[@data-attrid ='title']").getText());
         });
     }
