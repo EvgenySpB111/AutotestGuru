@@ -1,8 +1,15 @@
+
 plugins {
     id 'java-library'
+    id 'application'
     id("io.qameta.allure") version "2.10.0"
 
+
 }
+repositories {
+    mavenCentral()
+}
+
 allure{
     report {
         version.set("2.19.0")
@@ -16,11 +23,7 @@ allure{
         }
     }
 }
-
-repositories {
-    mavenCentral()
-}
-compileTestJava {
+tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
@@ -34,12 +37,41 @@ dependencies {
             "com.opencsv:opencsv:5.8",
             "com.google.code.gson:gson:2.10.1",
             'com.github.javafaker:javafaker:1.0.2',
-            'io.qameta.allure:allure-selenide:2.19.0'
+            'io.qameta.allure:allure-selenide:2.19.0',
+            "org.slf4j:slf4j-simple:1.7.32",
+            "io.rest-assured:rest-assured:5.3.1"
 
     )
 }
 
-
-test {
+tasks.withType(Test) {
+    systemProperties(System.getProperties())
     useJUnitPlatform()
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
 }
+
+task void_test(type: Test) {
+      useJUnitPlatform{
+          includeTags("void_tests")
+      }
+  }
+
+ task test_UI(type: Test) {
+     useJUnitPlatform {
+         includeTags("test_UI")
+     }
+
+ task test_test(type: Test) {
+     useJUnitPlatform {
+         includeTags("test_test")
+     }
+ }
+
+
+ }
