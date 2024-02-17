@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4189a9bd-a34c-47b2-88ef-6424819db7cc" name="Changes" comment="2023.07.15 part 2.1">
+    <list default="true" id="4189a9bd-a34c-47b2-88ef-6424819db7cc" name="Changes" comment="2024.02.12 part 2 test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/rest_api/RestApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/rest_api/RestApiTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/AllureReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/AllureReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +40,8 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="QA_Guru" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="QA_Guru" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -87,6 +82,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2Psu2BvQxXDt4a6RI1MBbLxvS2e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -95,21 +93,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build AutoTestGuru.executor": "Run",
-    "JUnit.AllureReport.testCase1.executor": "Run",
-    "JUnit.RestApiTests.executor": "Run",
-    "JUnit.RestApiTests.testDemo.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "jenkins__branch",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AutoTestGuru [allureServe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build AutoTestGuru.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AllureReport.checkGitHub.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AllureReport.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AllureReport.testCase1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RestApiTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RestApiTests.testDemo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RestApiTests.testDemo4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TranslatorTest.translatorFirstTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.testFillFormQaGuru.fillFormTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;jenkins__branch&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Java\Projects\AutotestGuru\AutotestGur\build\allure-results" />
@@ -187,7 +192,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="AllureReport.testCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllureReport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
@@ -197,54 +202,54 @@
       </extension>
       <option name="PACKAGE_NAME" value="saucedemo.shop.allure" />
       <option name="MAIN_CLASS_NAME" value="saucedemo.shop.allure.AllureReport" />
-      <option name="METHOD_NAME" value="testCase1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_Guru.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saucedemo.shop.rest_api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestApiTests.testDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllureReport.checkGitHub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="saucedemo.shop.rest_api.*" />
+          <option name="PATTERN" value="saucedemo.shop.allure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
-      <option name="METHOD_NAME" value="testDemo" />
+      <option name="PACKAGE_NAME" value="saucedemo.shop.allure" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.allure.AllureReport" />
+      <option name="METHOD_NAME" value="checkGitHub" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestApiTests.testDemo4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TranslatorTest.fillFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="saucedemo.shop.rest_api.*" />
+          <option name="PATTERN" value="saucedemo.shop.allure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
-      <option name="METHOD_NAME" value="testDemo4" />
+      <option name="PACKAGE_NAME" value="saucedemo.shop.allure" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.allure.TranslatorTest" />
+      <option name="METHOD_NAME" value="fillFormTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TranslatorTest.translatorFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Guru.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemo.shop.allure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemo.shop.allure" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.allure.TranslatorTest" />
+      <option name="METHOD_NAME" value="translatorFirstTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -254,18 +259,18 @@
       <item itemvalue="Gradle.LoginTests.checkGitHubTitle" />
       <item itemvalue="Gradle.LoginTests.successFullLoginTest" />
       <item itemvalue="Gradle.AutoTestGuru [allureServe]" />
-      <item itemvalue="JUnit.AllureReport.testCase1" />
-      <item itemvalue="JUnit.RestApiTests" />
-      <item itemvalue="JUnit.RestApiTests.testDemo" />
-      <item itemvalue="JUnit.RestApiTests.testDemo4" />
+      <item itemvalue="JUnit.AllureReport" />
+      <item itemvalue="JUnit.AllureReport.checkGitHub" />
+      <item itemvalue="JUnit.TranslatorTest.fillFormTest" />
+      <item itemvalue="JUnit.TranslatorTest.translatorFirstTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.AutoTestGuru [allureServe]" />
-        <item itemvalue="JUnit.RestApiTests" />
-        <item itemvalue="JUnit.RestApiTests.testDemo" />
-        <item itemvalue="JUnit.AllureReport.testCase1" />
-        <item itemvalue="JUnit.RestApiTests.testDemo4" />
+        <item itemvalue="JUnit.TranslatorTest.translatorFirstTest" />
+        <item itemvalue="JUnit.AllureReport" />
+        <item itemvalue="JUnit.AllureReport.checkGitHub" />
+        <item itemvalue="JUnit.TranslatorTest.fillFormTest" />
       </list>
     </recent_temporary>
   </component>
