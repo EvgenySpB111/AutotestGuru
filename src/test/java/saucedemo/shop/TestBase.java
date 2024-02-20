@@ -48,8 +48,8 @@ public class TestBase {
 
     @AfterAll
    static void afterAll() {
-    Selenide.closeWindow();
-    Selenide.closeWebDriver();
+        Selenide.closeWindow();
+        Selenide.closeWebDriver();
     }
 
 }

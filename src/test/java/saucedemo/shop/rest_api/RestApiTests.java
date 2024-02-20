@@ -70,6 +70,22 @@ public class RestApiTests  {
         System.out.println("Мы получили id пользователя " + idUser);
 
     }
+
+    @Tag("rest")
+    @Test
+    public void postRestTestFormParam() {
+        Response response = given().
+                when().log().method().log().uri().
+                contentType("application/x-www-form-urlencoded; charset= UTF-8").
+                formParam("name","Jenya").
+                formParam("job", "QA").
+                post("https://reqres.in/api/users").
+                then().log().status().log().body().statusCode(201).
+                extract().response();
+
+        String idUser = response.path("id");
+        System.out.println("Мы получили id пользователя " + idUser);
+    }
     @Tag("rest")
     @Test
     public void postRestTest2() {
