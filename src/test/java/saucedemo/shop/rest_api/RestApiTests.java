@@ -115,5 +115,45 @@ public class RestApiTests  {
                 body("error", is("Missing password"));
     }
 
+    @Tag("rest")
+    @Test
+    public void apiTestSletter() {
+        String textResponse = "Thank you for signing up! A verification email has been sent. We appreciate your interest.";
+                given().when().
+                contentType("application/x-www-form-urlencoded; charset=UTF-8").
+                log().all().
+                formParam("email","lora12@email.com").
+                post("https://demowebshop.tricentis.com/subscribenewsletter").
+                then().log().all().statusCode(200).
+                  body("Success", is(true)).
+                  body("Result",is(textResponse));
+
+    }
+    @Tag("rest")
+    @Test
+    public void addProductToCart() {
+        String cookie = "ARRAffinity=08de7553c98a126b311a9fbb1c3917e9720f52e597f80f56eb8cb87735dafbe0;" +
+                " ARRAffinitySameSite=08de7553c98a126b311a9fbb1c3917e9720f52e597f80f56eb8cb87735dafbe0;" +
+                " NOPCOMMERCE.AUTH=7096D965881438AC6FB30D2E4D05F6BBA294EB65A473456BF831AFB02BB764819D3E2" +
+                "1A9067C1BE339E2695E855CFBC00C475A9EE787A9916B216E2BBE498DEA36D837E7BA6AE7B94360F275EDC5" +
+                "89A3FC3FC9FDD6F0681DBC8FF9780B0ACD451806EEE0981BE0E9B4BEC2E8C538791A36391385BFC7FD97192" +
+                "85E52001E8236A64C15474169AFFA963A71614DA15E0F; Nop.customer=86c752a5-19fb-4556-a0e6-a" +
+                "edd253b812f";
+        given().when().
+                contentType("application/x-www-form-urlencoded; charset=UTF-8").
+                //cookie(cookie).
+                log().all().
+                formParam("giftcard_2.RecipientName","Vitya").
+                formParam("giftcard_2.RecipientEmail","lora11@mail.com").
+                formParam("giftcard_2.SenderName","Jeka").
+                formParam("giftcard_2.SenderEmail", "lora12@email.com").
+                formParam("addtocart_2.EnteredQuantity"," 1").
+                post("https://demowebshop.tricentis.com/addproducttocart/details/2/1").
+                then().log().all().statusCode(200).
+                body("success",is(true)).
+                body("message", is("The product has been added to your <a href=\"/cart\">shopping cart</a>")).
+                body("updatetopcartsectionhtml", is("(1)"));
+    }
+
 
 }

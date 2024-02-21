@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4189a9bd-a34c-47b2-88ef-6424819db7cc" name="Changes" comment="2024.02.12 part 2 test">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/DeleteProductFromBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/DeleteProductFromBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/VoidTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/allure/VoidTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/rest_api/RestApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/rest_api/RestApiTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,58 +92,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.AutoTestGuru [:Start.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.AutoTestGuru [allureServe].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build AutoTestGuru.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AllureReport.checkGitHub.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AllureReport.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AllureReport.testCase1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DeleteProductFromBasket.deleteProductFromBasket.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DeleteProductFromBasket.deleteProductFromBasket2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DeleteProductFromBasket.testChecking.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RestApiTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RestApiTests.postRestTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RestApiTests.postRestTestFormParan.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RestApiTests.testDemo.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RestApiTests.testDemo4.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TranslatorTest.translatorFirstTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.VoidTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.VoidTests.passTest1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.saucedemo in QA_Guru.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.saucedemo.shop.utils in QA_Guru.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.testFillFormQaGuru.fillFormTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;jenkins__branch&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.AutoTestGuru [:Start.main()].executor": "Run",
+    "Gradle.AutoTestGuru [allureServe].executor": "Run",
+    "Gradle.Build AutoTestGuru.executor": "Run",
+    "JUnit.AllureReport.checkGitHub.executor": "Run",
+    "JUnit.AllureReport.executor": "Run",
+    "JUnit.AllureReport.testCase1.executor": "Run",
+    "JUnit.DeleteProductFromBasket.deleteProductFromBasket.executor": "Run",
+    "JUnit.DeleteProductFromBasket.deleteProductFromBasket2.executor": "Run",
+    "JUnit.DeleteProductFromBasket.testChecking.executor": "Run",
+    "JUnit.RestApiTests.addProductToCart.executor": "Run",
+    "JUnit.RestApiTests.apiTestSletter.executor": "Run",
+    "JUnit.RestApiTests.executor": "Run",
+    "JUnit.RestApiTests.missingPasswordTest.executor": "Run",
+    "JUnit.RestApiTests.postRestTest.executor": "Run",
+    "JUnit.RestApiTests.postRestTestFormParam.executor": "Run",
+    "JUnit.RestApiTests.postRestTestFormParan.executor": "Run",
+    "JUnit.RestApiTests.testDemo.executor": "Run",
+    "JUnit.RestApiTests.testDemo4.executor": "Run",
+    "JUnit.TranslatorTest.translatorFirstTest.executor": "Run",
+    "JUnit.VoidTests.executor": "Run",
+    "JUnit.VoidTests.passTest1.executor": "Run",
+    "JUnit.saucedemo in QA_Guru.test.executor": "Run",
+    "JUnit.saucedemo.shop.utils in QA_Guru.test.executor": "Run",
+    "JUnit.testFillFormQaGuru.fillFormTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "jenkins__branch",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Java\Projects\AutotestGuru\AutotestGur\build\allure-results" />
       <recent name="C:\Java\Projects\AutotestGuru\AutotestGur\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RestApiTests.postRestTestFormParan">
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="guru.qa.Start" />
-      <module name="QA_Guru.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="guru.qa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RestApiTests.addProductToCart">
     <configuration name="LoginTests.checkGitHubTitle" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -196,23 +183,23 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeleteProductFromBasket.deleteProductFromBasket2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestApiTests.addProductToCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="saucedemo.shop.*" />
+          <option name="PATTERN" value="saucedemo.shop.rest_api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.DeleteProductFromBasket" />
-      <option name="METHOD_NAME" value="deleteProductFromBasket2" />
+      <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
+      <option name="METHOD_NAME" value="addProductToCart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestApiTests.apiTestSletter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
@@ -222,12 +209,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
       <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="apiTestSletter" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestApiTests.postRestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestApiTests.missingPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
         <pattern>
@@ -237,7 +225,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
       <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
-      <option name="METHOD_NAME" value="postRestTest" />
+      <option name="METHOD_NAME" value="missingPasswordTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestApiTests.postRestTestFormParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Guru.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemo.shop.rest_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
+      <option name="METHOD_NAME" value="postRestTestFormParam" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,21 +264,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Start" />
       <item itemvalue="Gradle.LoginTests.checkGitHubTitle" />
       <item itemvalue="Gradle.LoginTests.successFullLoginTest" />
-      <item itemvalue="JUnit.DeleteProductFromBasket.deleteProductFromBasket2" />
-      <item itemvalue="JUnit.RestApiTests" />
-      <item itemvalue="JUnit.RestApiTests.postRestTest" />
+      <item itemvalue="JUnit.RestApiTests.addProductToCart" />
+      <item itemvalue="JUnit.RestApiTests.apiTestSletter" />
+      <item itemvalue="JUnit.RestApiTests.missingPasswordTest" />
+      <item itemvalue="JUnit.RestApiTests.postRestTestFormParam" />
       <item itemvalue="JUnit.RestApiTests.postRestTestFormParan" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestApiTests.addProductToCart" />
+        <item itemvalue="JUnit.RestApiTests.apiTestSletter" />
+        <item itemvalue="JUnit.RestApiTests.missingPasswordTest" />
+        <item itemvalue="JUnit.RestApiTests.postRestTestFormParam" />
         <item itemvalue="JUnit.RestApiTests.postRestTestFormParan" />
-        <item itemvalue="JUnit.RestApiTests" />
-        <item itemvalue="Application.Start" />
-        <item itemvalue="JUnit.RestApiTests.postRestTest" />
-        <item itemvalue="JUnit.DeleteProductFromBasket.deleteProductFromBasket2" />
       </list>
     </recent_temporary>
   </component>
