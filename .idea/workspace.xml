@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4189a9bd-a34c-47b2-88ef-6424819db7cc" name="Changes" comment="2024.02.12 part 2 test">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/pages/StartShopPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/pages/StartShopPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/shop/rest_api/RestApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/shop/rest_api/RestApiTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,14 +72,12 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="238ba6b0-b202-4e98-b982-6a353d1f3ae3" />
-        <option name="url" value="https://github.com/EvgenySpB111/AutotestGuru.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EvgenySpB111/AutoTestGuru.git&quot;,
+    &quot;accountId&quot;: &quot;73a56bf6-cc11-4ab9-bb7c-ce4a67e4d699&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -95,14 +95,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.AutoTestGuru [:Start.main()].executor": "Run",
+    "Gradle.AutoTestGuru [allureReport].executor": "Run",
     "Gradle.AutoTestGuru [allureServe].executor": "Run",
+    "Gradle.AutoTestGuru [test_UI].executor": "Run",
     "Gradle.Build AutoTestGuru.executor": "Run",
+    "JUnit.AddProductInBasket.addProductInBasket.executor": "Run",
     "JUnit.AllureReport.checkGitHub.executor": "Run",
     "JUnit.AllureReport.executor": "Run",
     "JUnit.AllureReport.testCase1.executor": "Run",
     "JUnit.DeleteProductFromBasket.deleteProductFromBasket.executor": "Run",
     "JUnit.DeleteProductFromBasket.deleteProductFromBasket2.executor": "Run",
     "JUnit.DeleteProductFromBasket.testChecking.executor": "Run",
+    "JUnit.JUnitTests.testTextBox.executor": "Run",
     "JUnit.RestApiTests.addProductToCart.executor": "Run",
     "JUnit.RestApiTests.apiTestSletter.executor": "Run",
     "JUnit.RestApiTests.executor": "Run",
@@ -112,6 +116,8 @@
     "JUnit.RestApiTests.postRestTestFormParan.executor": "Run",
     "JUnit.RestApiTests.testDemo.executor": "Run",
     "JUnit.RestApiTests.testDemo4.executor": "Run",
+    "JUnit.TestPractice.testClosedPopup.executor": "Run",
+    "JUnit.TestPractice.testClosedPopup2.executor": "Run",
     "JUnit.TranslatorTest.translatorFirstTest.executor": "Run",
     "JUnit.VoidTests.executor": "Run",
     "JUnit.VoidTests.passTest1.executor": "Run",
@@ -122,10 +128,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "jenkins__branch",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -134,7 +146,73 @@
       <recent name="C:\Java\Projects\AutotestGuru\AutotestGur\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RestApiTests.addProductToCart">
+  <component name="RunManager" selected="Gradle.AutoTestGuru [test_UI]">
+    <configuration name="AutoTestGuru [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AutoTestGuru [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AutoTestGuru [test_UI]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test_UI" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="LoginTests.checkGitHubTitle" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -183,6 +261,22 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="AddProductInBasket.addProductInBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Guru.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemo.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemo.shop" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.AddProductInBasket" />
+      <option name="METHOD_NAME" value="addProductInBasket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestApiTests.addProductToCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Guru.test" />
       <extension name="coverage">
@@ -199,86 +293,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestApiTests.apiTestSletter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_Guru.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saucedemo.shop.rest_api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
-      <option name="METHOD_NAME" value="apiTestSletter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestApiTests.missingPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_Guru.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saucedemo.shop.rest_api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
-      <option name="METHOD_NAME" value="missingPasswordTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestApiTests.postRestTestFormParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_Guru.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saucedemo.shop.rest_api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
-      <option name="METHOD_NAME" value="postRestTestFormParam" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestApiTests.postRestTestFormParan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_Guru.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saucedemo.shop.rest_api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="saucedemo.shop.rest_api" />
-      <option name="MAIN_CLASS_NAME" value="saucedemo.shop.rest_api.RestApiTests" />
-      <option name="METHOD_NAME" value="postRestTestFormParan" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Gradle.LoginTests.checkGitHubTitle" />
       <item itemvalue="Gradle.LoginTests.successFullLoginTest" />
+      <item itemvalue="Gradle.AutoTestGuru [test_UI]" />
+      <item itemvalue="Gradle.AutoTestGuru [allureReport]" />
+      <item itemvalue="Gradle.AutoTestGuru [allureServe]" />
       <item itemvalue="JUnit.RestApiTests.addProductToCart" />
-      <item itemvalue="JUnit.RestApiTests.apiTestSletter" />
-      <item itemvalue="JUnit.RestApiTests.missingPasswordTest" />
-      <item itemvalue="JUnit.RestApiTests.postRestTestFormParam" />
-      <item itemvalue="JUnit.RestApiTests.postRestTestFormParan" />
+      <item itemvalue="JUnit.AddProductInBasket.addProductInBasket" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AutoTestGuru [test_UI]" />
         <item itemvalue="JUnit.RestApiTests.addProductToCart" />
-        <item itemvalue="JUnit.RestApiTests.apiTestSletter" />
-        <item itemvalue="JUnit.RestApiTests.missingPasswordTest" />
-        <item itemvalue="JUnit.RestApiTests.postRestTestFormParam" />
-        <item itemvalue="JUnit.RestApiTests.postRestTestFormParan" />
+        <item itemvalue="Gradle.AutoTestGuru [allureServe]" />
+        <item itemvalue="Gradle.AutoTestGuru [allureReport]" />
+        <item itemvalue="JUnit.AddProductInBasket.addProductInBasket" />
       </list>
     </recent_temporary>
   </component>
@@ -297,6 +327,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684257904512</updated>
+      <workItem from="1714137467338" duration="1414000" />
     </task>
     <task id="LOCAL-00001" summary="2023.07.15 demo">
       <option name="closed" value="true" />
@@ -324,6 +355,9 @@
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

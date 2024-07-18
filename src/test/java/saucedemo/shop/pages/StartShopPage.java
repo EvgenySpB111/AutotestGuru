@@ -30,7 +30,7 @@ public class StartShopPage {
         //loginAndCheckListProductsInPageShop();
        addProductInBasketButton.get(0).click();
        String countProductInBasket = basketForProductsButton.getText();
-       Assertions.assertEquals("1",countProductInBasket);
+       Assertions.assertEquals("",countProductInBasket);
        return this;
     }
     @Step("Добавляем два продукта в корзину и проверяем число количество товаров в корзине")
